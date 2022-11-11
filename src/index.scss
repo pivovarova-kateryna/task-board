@@ -7,7 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper {
+  border-radius: 5px;
+  border: 1px solid #bebebe;
 }
+
+.btn {
+  cursor: pointer;
+}
+
+.board-content {
+  display: flex;
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+

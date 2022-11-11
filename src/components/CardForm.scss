@@ -1,0 +1,54 @@
+
+
+.card-form {
+    label {
+        font-size: 12px;
+    }
+    
+    input, textarea {
+        border-radius: 5px;
+        border: 1px solid #bebebe;
+        width: 97%;
+    }
+    
+    textarea {
+        resize: vertical;
+    }
+    
+    .priority-block {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0
+    }
+
+    .error-notice {
+        display: none;
+
+        &.visible {
+            display: block;
+            color: red;
+            font-size: 12px;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .error {
+        border-color: red;
+    }
+    
+    .card-form-control {
+        display: flex;
+        justify-content: flex-end;
+        margin: 10px 0;
+    
+        .btn {
+            border: 1px solid #bebebe;
+    
+            &.submit-card {
+                margin-left: 10px;
+                background-color: #c3e0a7;
+            }
+        } 
+    }
+}

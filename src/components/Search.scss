@@ -1,0 +1,23 @@
+.search-block {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+
+    .search-title {
+        width: 10%;
+        display: inline-block;
+    }
+
+    .clear-btn {
+        width: 5%;
+    }
+
+    input {
+        width: 60%;
+    }
+
+    .search-btn {
+        width: 20%;
+    }
+}
